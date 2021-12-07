@@ -1,0 +1,580 @@
+* {
+    box-sizing: unset;
+}
+
+body {
+    margin: 0;
+    display: grid;
+}
+
+#index {
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section section"
+    "footer footer footer footer footer"
+;
+}
+
+#fietsen {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section section"
+    "footer footer footer footer footer"
+    ;
+}
+
+#contact {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section section"
+    "footer footer footer footer footer"
+    ;
+}
+
+#overonsbody {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section section"
+    "footer footer footer footer footer"
+    ;
+}
+
+#openingstijdenbody {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+    grid-template-areas: 
+    "header header header header header"
+    "nav nav nav nav nav"
+    "section section section section section"
+    "footer footer footer footer footer"
+    ;
+}
+
+header {
+    background-color: lightblue;
+    color: white;
+    grid-area: header;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    grid-area: footer;
+    margin-top: -0.50%;
+}
+
+#headerpagina {
+    display: flex;
+    align-items: center;
+}
+
+#size {
+    height: 50px;
+    width: 100px;
+}
+
+#size2 {
+    height: 50px;
+    width: 100px;
+}
+
+#size3 {
+    height: 125px;
+    width: 175px;
+    align-self: center;
+}
+
+nav {
+    grid-area: nav;
+}
+
+#section {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    grid-area: section;
+}
+
+#zoeken {
+    visibility: hidden;
+}
+
+#header2 {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa {
+    margin: 5px;
+    padding: 20px;
+    font-size: 35px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+#imageco {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 796px;
+    grid-area: imageco;
+  }
+
+.footerklein {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footergroot {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+a:link {
+color: white;
+text-decoration: none;
+}
+  
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+#groter {
+    font-size: 40px;
+}
+
+#fietsenafb {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "1 2"
+    "3 4"
+    ;
+}
+
+figcaption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#a1 {
+    width: 410px;
+    height: 330px;
+}
+
+#a2 {
+    width: 410px;
+    height: 330px;
+}
+
+#a3 {
+    width: 410px;
+    height: 330px;
+}
+
+#a4 {
+    width: 410px;
+    height: 330px;
+}
+
+figure {
+    text-align: center;
+}
+
+#form {
+    display: grid;
+    padding-top: 25px;
+    row-gap: 30px;
+    grid-template-columns: 5% 10% 70% 10%;
+    grid-template-rows: 19% 19% 19% 39% 13% 19%;
+    grid-template-areas:
+    "niks voornaamlbl voornaam voornaam"
+    "niks achternaamlbl achternaam achternaam"
+    "niks emaillbl email email"
+    "niks vraaglbl vraag vraag"
+    "niks . . submit"
+    ". . . ."
+    ;
+}
+
+#txtvoornaam {
+    grid-area: voornaam;
+}
+
+#txtachternaam {
+    grid-area: achternaam;
+}
+
+#email {
+    grid-area: email;
+}
+
+#vraag {
+    grid-area: vraag;
+}
+
+#submit {
+    grid-area: submit;
+    background-color: darkblue;
+    color: white;
+}
+
+#emaillbl {
+    grid-area: emaillbl;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+#vraaglbl {
+    grid-area: vraaglbl;
+    font-size: 20px;
+    display: flex;
+}
+
+#voor {
+    grid-area: voornaamlbl;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+#achter {
+    grid-area: achternaamlbl;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+#niks {
+    grid-area: niks;
+    font-size: 20px;
+    display: flex;
+    align-self: center;
+}
+
+#uitleg {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+  }
+
+#openingstijden {
+    font-size: 40px;
+    grid-area: openings;
+}
+
+#gegevens {
+    font-size: 40px;
+    grid-area: gegevens;
+    margin-top: 20px;
+}
+
+#map {
+    grid-area: map;
+    margin-top: 10%;
+}
+
+#oeng {
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:
+    ". openings map ."
+    ". gegevens map ."
+    ;
+}
+
+#fietsenhuren {
+    display: grid;
+    grid-template-columns: 32% 36% 32%;
+    grid-template-rows: 15% 5% 40% 46% 10%;
+    grid-template-areas:
+    ". fietsh2 ."
+    ". fietstb ."
+    "f1 fietstb f2"
+    ". fietstb ."
+    ". btnfiets ."
+    ;
+}
+
+#f1 {
+    grid-area: f1;
+    width: 100%;
+}
+
+#f2 {
+    grid-area: f2;
+    width: 100%;
+}
+
+#fietstb {
+    grid-area: fietstb;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+#h2fietsen {
+    grid-area: fietsh2;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+#btnfiets {
+    padding: 5px;
+    grid-area: btnfiets;  
+    display: flex;
+    justify-content: center;
+}
+
+#btnfietcolor {
+    background-color: darkblue;
+    color: white;
+}
+
+.text {
+    margin-right: 5%;
+}
+
+#texttijdenopen {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#tablesize {
+    width: 80%;
+}
+
+#gegevensfiets {
+    font-size: 30px;
+    grid-area: gegevensfiets;
+}
+
+#fietsenafb2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "11 gegevensfiets"
+    ;
+}
+
+#tablesize2 {
+    width: 80%;
+}
+
+#a11  {
+    grid-area: 11;
+    width: 410px;
+    height: 330px;
+    margin-top: 100px;
+}
+
+#h2fiets {
+    margin-top: 100px;
+}
+
+#figlaag {
+    margin-top: 100px;
+}
+
+#buttonkopen {
+    margin-top: 5px;
+    width: 38.5%;
+    height: 50px;
+    float: right;
+    margin-right: 150px;
+    background-color: blue;
+    color: white;
+}
+
+#padding {
+    padding: 50px;
+}
+
+#div2 {
+    display: flex;
+    justify-content: space-between; 
+}
+
+#div3 {
+    margin-left: 85%;
+}
+
+#div4 {
+    float: right;
+    display: flex;
+    gap: 5px;
+    flex-direction:column;
+    text-align: right;
+}
+
+#groottetussenkopf {
+    font-size: 30px;
+}
+
+#divcolumn {
+    display: flex;
+    flex-direction: column;  
+    gap: 20px;
+}
+
+#floatr {
+    float: right;
+}
+
+.paddingl {
+    margin-left: 5%;
+}
+
+.paddingr {
+    margin-right: 5%;
+}
+
+.margint {
+    margin-top: 1%;
+}
+
+#labelll {
+    display: flex;
+    align-self: flex-end;
+}
+
+@media (min-width: 0px) and (max-width:669px)  { 
+    #index {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;  
+    }
+
+
+    #groter {
+        font-size: 35px;
+    }
+
+    #txt, #myDIV {
+        margin-right: -6px;
+    }
+
+    #header2 {
+        margin-left: -25%;
+    }
+
+    #div2 {
+        display: unset;
+        font-size: 30px;
+    }
+    .paddingl {
+        margin-left: 0%;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        margin-bottom: -120%;
+        position: unset;
+    }
+
+    #divcolumn {
+        display: flex;
+        flex-direction: column;  
+        gap: 10px;        
+    }
+
+    #groottetussenkopf {
+        font-size: 70px;
+    }
+
+    #floatr {
+        float: unset;
+    }
+
+    #div4 {
+        float: unset;
+        text-align: unset;
+        font-size: 30px;
+    }
+
+    #size3 {
+        height: 125px;
+        width: 175px;
+        align-self: unset;
+    }
+
+    #texttijdenopen {
+        width: 99%;
+    }
+
+    #fietslinks {
+        text-align: left;
+    }
+
+    #black {
+        color: black;
+    }
+}

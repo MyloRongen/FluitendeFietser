@@ -1,0 +1,24 @@
+#myUL {
+    list-style-type: none;
+    display: unset;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #f6f6f6;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+  top: 8%;
+  width: 15%;
+    height: 5%;
+    position: absolute;
+  }
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
+
+  #zoeklijst {
+    display: none; 
+  }

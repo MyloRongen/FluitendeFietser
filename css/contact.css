@@ -1,0 +1,222 @@
+@media (min-width: 0px) and (max-width:320px)  { 
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;  
+    }
+
+    #form {
+        display: grid;
+        padding-top: 0px;
+        row-gap: 8%;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 5% 5% 10% 5% 10% 5% 10% 5% 20% 15%;
+        grid-template-areas:
+        ". . ."
+        ". voornaamlbl ."
+        ". voornaam ."
+        ". achternaamlbl ."
+        ". achternaam ."
+        ". emaillbl ."
+        ". email ."
+        ". vraaglbl ."
+        ". vraag ."
+        ". submit ."
+        ". . ."
+        ;
+    }
+
+}
+
+@media (min-width:321px) and (max-width:481px)  { 
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;  
+    
+    }
+
+    #form {
+        display: grid;
+        padding-top: 7px;
+        row-gap: 5%;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 5% 5% 15% 5% 15% 5% 15% 5% 25% 15%;
+        grid-template-areas:
+        ". . ."
+        ". voornaamlbl ."
+        ". voornaam ."
+        ". achternaamlbl ."
+        ". achternaam ."
+        ". emaillbl ."
+        ". email ."
+        ". vraaglbl ."
+        ". vraag ."
+        ". submit ."
+        ". . ."
+        ;
+    }
+    
+}
+
+@media (min-width:482px)  and (max-width:669px)  { 
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 150% 0% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #groter {
+        font-size: 35px;
+    }
+
+    #form {
+        display: grid;
+        padding-top: 0px;
+        row-gap: 8%;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 5% 5% 10% 5% 10% 5% 10% 5% 20% 15%;
+        grid-template-areas:
+        ". . ."
+        ". voornaamlbl ."
+        ". voornaam ."
+        ". achternaamlbl ."
+        ". achternaam ."
+        ". emaillbl ."
+        ". email ."
+        ". vraaglbl ."
+        ". vraag ."
+        ". submit ."
+        ". . ."
+        ;
+    }
+    
+}
+
+@media (min-width:670px) and (max-width:1025px)  {
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;
+    
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 0% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #form {
+        display: grid;
+        padding-top: 0px;
+        row-gap: 8%;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: 5% 5% 15% 5% 15% 5% 15% 5% 25% 15%;
+        grid-template-areas:
+        ". . ."
+        ". voornaamlbl ."
+        ". voornaam ."
+        ". achternaamlbl ."
+        ". achternaam ."
+        ". emaillbl ."
+        ". email ."
+        ". vraaglbl ."
+        ". vraag ."
+        ". submit ."
+        ". . ."
+        ;
+    }
+}
+
+@media (max-width:1281px) { 
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 20% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+}
+
+@media (min-width:1282px) { 
+    #contact {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section section"
+        "footer footer footer footer footer"
+    ;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: unset;
+    }
+}
+

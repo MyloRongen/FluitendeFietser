@@ -1,0 +1,123 @@
+@media (min-width:0px)  and (max-width:699px)  { 
+    #fietsenv {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;  
+    }
+
+    footer {
+        margin-top: -10%;
+    }
+
+    #fietsenhuren {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 5% 70% 5% 5% 10%;
+        grid-template-areas:
+        ". ."
+        "fietsh2 fietsh2"
+        "fietstb fietstb"
+        "btnfiets btnfiets"
+        ". ."
+        "f1 f2"
+        ;
+    }
+}
+
+@media (min-width:700px) and (max-width:1025px)  {
+    #fietsenv {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;  
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding-bottom: 35%;
+        margin-top: -35%;
+        margin-bottom: -90%;
+        position: unset;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 0% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #fietsenhuren {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5% 5% 70% 5% 5% 10%;
+        grid-template-areas:
+        ". ."
+        "fietsh2 fietsh2"
+        "fietstb fietstb"
+        "btnfiets btnfiets"
+        ". ."
+        "f1 f2"
+        ;
+    }
+}
+
+@media (max-width:1281px) { 
+    #fietsenv {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;
+    }
+}
+
+@media (min-width:1282px) { 
+    #fietsenv {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section section"
+        "footer footer footer footer footer"
+    ;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: unset;
+    }
+}
+

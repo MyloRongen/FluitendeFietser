@@ -1,0 +1,196 @@
+@media (min-width: 0px) and (max-width:320px)  { 
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;  
+    }
+
+    #oeng {
+        display: grid;
+        grid-template-columns: 5% 95%;
+        grid-template-rows: 30% 30% 10%;
+        grid-template-areas:
+        ". openings"
+        ". gegevens"
+        ". map"
+        ;
+        }
+
+        #tablesize {
+            width: 80%;            
+        }
+}
+
+@media (min-width:321px) and (max-width:499px)  { 
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;     
+    }
+
+    #oeng {
+        display: grid;
+        grid-template-columns: 5% 95%;
+        grid-template-rows: 30% 30% 10%;
+        grid-template-areas:
+        ". openings"
+        ". gegevens"
+        ". map"
+        ;
+        }
+
+        #tablesize {
+            width: 90%;            
+        }
+    
+}
+
+@media (min-width:500px)  and (max-width:699px)  { 
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 150% 0% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #groter {
+        font-size: 35px;
+    }
+
+    #oeng {
+        display: grid;
+        grid-template-columns: 5% 95%;
+        grid-template-rows: 30% 30% 10%;
+        grid-template-areas:
+        ". openings"
+        ". gegevens"
+        ". map"
+        ;
+        }
+
+        #tablesize {
+            width: 80%;            
+        }
+    
+}
+
+@media (min-width:700px) and (max-width:1024px)  {
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "footer"
+    ;
+    
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 0% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #oeng {
+        display: grid;
+        grid-template-columns: 5% 80%;
+        grid-template-rows: 30% 30% 10%;
+        grid-template-areas:
+        ". openings"
+        ". gegevens"
+        ". map"
+        ;
+        }
+
+        #tablesize {
+            width: 80%;            
+        }
+    
+}
+
+@media (max-width:1281px) { 
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 20% 20% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+}
+
+@media (min-width:1281px) { 
+    #openingstijdenbody {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 0.4fr;
+        grid-template-areas: 
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section section"
+        "footer footer footer footer footer"
+    ;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: unset;
+    }
+}

@@ -1,0 +1,39 @@
+#fietsenafb2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "gegevensfiets 11"
+    ;
+}
+
+table {
+    margin-left: 28%;
+    margin-top: 13.5%;
+}
+
+.fiets {
+    margin-left: 10%;
+}
+
+.fietstable {
+    margin-left: 10%;
+    margin-top: -3%;
+}
+
+#a11 {
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
+input {
+    height: 50px;
+}
+
+table, tr, td {
+    border: none;
+}
+
+#backcolor {
+    background-color: lightgrey;
+}

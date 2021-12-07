@@ -1,0 +1,281 @@
+nav {
+    margin-top: 0px;
+    max-width: auto;
+    width: auto;
+    height: auto;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 31px 25px;
+    text-decoration: none;
+    background-color: darkblue;
+    border-radius: 5px;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+
+@media (min-width:0px) and (max-width:699px)  {
+    #index {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 20% 0% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #txt, #myDIV {
+        color: #f2f2f2;
+        font-size: 60px;
+        margin-right: -6px;
+        bottom: auto;
+        width: 100%;
+        background-color:white;color:black;
+        display: flex;
+        justify-content: center;
+        grid-area: txt;
+    }
+
+
+    #groter {
+        font-size: 35px;
+    }
+
+    #header2 {
+        margin-left: -25%;
+    }
+
+    #div2 {
+        display: unset;
+        font-size: 30px;
+    }
+    .paddingl {
+        margin-left: 0%;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        margin-top: -35%;
+        margin-bottom: -90%;
+        position: unset;
+    }
+
+    #divcolumn {
+        display: flex;
+        flex-direction: column;  
+        gap: 10px;        
+    }
+
+    #groottetussenkopf {
+        font-size: 70px;
+    }
+
+    #floatr {
+        float: unset;
+    }
+
+    #div4 {
+        float: unset;
+        text-align: unset;
+        font-size: 30px;
+    }
+
+    #size3 {
+        height: 125px;
+        width: 175px;
+        align-self: unset;
+    }
+
+    #texttijdenopen {
+        width: 99%;
+    }
+
+    #loginnn {
+        display: none;
+    }
+}
+
+@media (min-width:700px) and (max-width:1024px)  {
+    #index {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 3.1fr 1fr 0.4fr;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "section"
+        "txt"
+        "footer"
+    ;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 100% 20% 0% 20%;
+        grid-template-rows: 1fr;
+        grid-template-areas: 
+        "groter zoekimg zoeken winkelwagen"
+    ;           
+    }
+
+    #txt, #myDIV {
+        color: #f2f2f2;
+        font-size: 60px;
+        margin-right: -6px;
+        bottom: auto;
+        width: 100%;
+        background-color:white;color:black;
+        display: flex;
+        justify-content: center;
+        grid-area: txt;
+    }
+
+
+    #groter {
+        font-size: 35px;
+    }
+
+    #header2 {
+        margin-left: -25%;
+    }
+
+    #div2 {
+        display: unset;
+        font-size: 30px;
+    }
+    .paddingl {
+        margin-left: 0%;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding-bottom: 22%;
+        margin-top: -35%;
+        margin-bottom: -90%;
+        position: unset;
+    }
+
+    #divcolumn {
+        display: flex;
+        flex-direction: column;  
+        gap: 10px;        
+    }
+
+    #groottetussenkopf {
+        font-size: 70px;
+    }
+
+    #floatr {
+        float: unset;
+    }
+
+    #div4 {
+        float: unset;
+        text-align: unset;
+        font-size: 30px;
+    }
+
+    #size3 {
+        height: 125px;
+        width: 175px;
+        align-self: unset;
+    }
+
+    #texttijdenopen {
+        width: 99%;
+    }
+
+    #loginnn {
+        display: none;
+    }
+}
+
+@media (min-width:1026px)  { 
+    #index {
+        padding: 0%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 0.3fr 15fr 0.4fr;
+        grid-template-areas: 
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section section"
+        "footer footer footer footer footer"
+    ;
+    }
+
+    footer {
+        background-color: lightblue;
+        color: white;
+        grid-area: footer;
+        padding: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        position: unset;
+    }
+
+    #imageco {
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
+        grid-area: imageco;
+      }
+}
+
+@media only screen and (min-width:1026px) and (max-width: 1530px) {
+    #txt, #myDIV {
+        color: #f2f2f2;
+        font-size: 60px;
+        bottom: auto;
+        width: 90%;
+        text-align: center;
+        background-color:white;color:black;
+        display: flex;
+        justify-content: center;
+        grid-area: txt;
+    }
+}
